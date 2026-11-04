@@ -1,0 +1,539 @@
+:root{color-scheme:light;--cream:#faf2df;--paper:#fff9e9;--ink:#443b2c;--green:#405f45;--line:#d7c8a7;--gold:#b88840}*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--cream);color:var(--ink);font:17px/1.5 'Trebuchet MS',Arial,sans-serif}button{font:inherit;cursor:pointer}button,a{-webkit-tap-highlight-color:transparent;touch-action:manipulation}button:focus-visible,a:focus-visible{outline:3px solid #326888;outline-offset:3px}h1:focus,h2:focus{outline:none}[hidden]{display:none!important}.app{max-width:1320px;margin:auto}.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;height:70px;padding:10px 24px}.brand{font:bold 25px Georgia,serif;color:var(--green);text-decoration:none;line-height:1.1}.brand span{display:block;font:12px 'Trebuchet MS',sans-serif;letter-spacing:.18em;margin-top:4px}nav{display:flex;gap:7px;align-items:center}nav button,nav a,.secondary{display:inline-flex;align-items:center;justify-content:center;min-height:44px;border:1px solid var(--line);border-radius:24px;background:#fff9ec;padding:8px 15px;color:var(--ink);font-size:14px;text-decoration:none}main{padding:10px 24px 24px}footer{font-size:14px;color:#75684f;text-align:center;padding:0 15px 20px}h1{font:normal clamp(29px,4vw,44px)/1.12 Georgia,serif;color:#354c3b;margin:8px 0 16px}h2{font:normal 27px/1.15 Georgia,serif;margin:10px 0 16px}h3{font:normal 22px/1.2 Georgia,serif}.eyebrow{font-size:13px;font-weight:bold;letter-spacing:.15em;color:#8c713c;margin:0 0 10px}.small{font-size:14px;color:#75684f}.primary{border:2px solid #c39242;border-radius:999px;background:#426444;color:#fffbed;font-weight:bold;font-size:17px;padding:13px 27px;box-shadow:inset 0 0 0 3px #fff7e7;min-height:48px;max-width:100%}.primary:hover{background:#304a34}.paper{background:#fffcf4;border:1px solid var(--line);border-radius:25px;overflow:hidden;box-shadow:0 4px 0 #e9e0ce}.guidelines{max-width:1000px;margin:auto}.welcome-nav{display:flex;align-items:center;justify-content:space-between;font-size:14px;color:#6d725b;margin-bottom:18px}.welcome-heading{display:flex;align-items:center;gap:24px;margin-bottom:23px}.welcome-heading img{width:145px;height:112px;object-fit:cover;border-radius:20px;border:2px solid #d8c59c;flex-shrink:0}.welcome-heading h1{font-size:clamp(26px,3.6vw,39px)}.welcome-heading p{margin:6px 0}.safety-rules{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0;padding:0}.safety-rules li{background:#fffcf4;border:1px solid #d9c9a8;border-radius:16px;padding:15px 18px;font-size:16px;line-height:1.45;box-shadow:0 3px 0 #e9e0ce}.safety-rules strong{display:block;color:#425f42;font-size:17px;margin-bottom:5px}.welcome-bottom{text-align:center;margin-top:22px}.welcome-bottom p{font-size:14px;color:#77735d}.mission{max-width:920px;margin:auto;text-align:center}.study{display:block;width:100%;max-height:400px;object-fit:cover;object-position:center 48%}.mission-copy{padding:25px 35px}.mission-copy p{max-width:740px;margin:12px auto 22px}.mission-copy h1{font-size:clamp(29px,4vw,40px)}.ready{min-height:calc(100svh - 135px);max-width:640px;margin:auto;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px}.ready h1{font-size:clamp(30px,4vw,44px)}.ready p{max-width:440px;margin:10px 0}.friends{display:flex;width:290px;max-width:90%;margin:10px auto 15px}.friend{display:block;width:50%;aspect-ratio:3/4;background-image:url('assets/friends-shoes.webp');background-size:200% 100%;background-repeat:no-repeat}.peep{background-position:left center}.poppy{background-position:right center}.orientation-icon{font:45px Georgia,serif;width:65px;height:42px;border:3px solid #738354;border-radius:12px;display:grid;place-items:center;line-height:.7;color:#738354;margin:8px 0 12px}.ready h2{margin-bottom:8px}.playing .app{max-width:1600px}.playing main{padding:0 14px 10px}.playing footer{display:none}.play-shell{height:calc(100dvh - 80px);min-height:320px;border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;background:#fff8e8}.hud{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:9px 18px;flex-shrink:0;min-height:73px}.hud .eyebrow{margin:0;font-size:12px}.hud h1{font-size:24px;margin:3px 0}.hud-title{font:20px Georgia,serif;text-align:center;color:#626346}.score{font-size:13px;text-align:right}.stars{display:flex;gap:5px;padding:0;margin:2px 0;list-style:none;justify-content:center}.stars li{font-size:23px;line-height:1.2;color:#dbd1b9;-webkit-text-stroke:.6px #98845d}.stars .collected{color:#ddb044;-webkit-text-stroke:.6px #936b24}.world{position:relative;flex:1;min-height:0;isolation:isolate;overflow:hidden;background:#eae1c9}.backdrop{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:-1}.actors{position:absolute;bottom:1%;left:1%;width:43%;height:72%;display:flex;align-items:flex-end;pointer-events:none}.actor{width:50%;height:100%;max-height:470px;background-image:url('assets/friends-shoes.webp');background-size:200% 100%;background-repeat:no-repeat;aspect-ratio:3/4;transform-origin:50% 85%;background-size:200% 100%}.actors .peep{margin-right:-2%}.actors .poppy{margin-left:-2%}.guest{position:absolute;left:34%;bottom:4%;height:48%;max-width:15%;object-fit:contain;transform-origin:center bottom}.room-3 .actors{left:0;width:37%;height:64%}.conversation,.notification,.mail-panel,.reward-panel{position:absolute;background:#fff9e9f5;border:2px solid #c9b47e;border-radius:22px;box-shadow:0 8px 25px #4e3c2126}.conversation{right:6%;bottom:14%;width:47%;padding:22px 25px;border-radius:23px 23px 23px 5px}.speaker{font-weight:bold;color:#405f45;font-size:17px}.conversation p{font:23px/1.4 Georgia,serif;margin:10px 0 18px}.conversation-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px}.conversation small{color:#75684f;font-size:14px}.room-1 .conversation{bottom:3%;right:5%;width:47%}.notification{right:7%;top:50%;transform:translateY(-50%);width:44%;padding:25px;text-align:center}.envelope{font-size:56px;color:#ad8540;display:block;line-height:1.1}.notification h2{font-size:27px}.notification p{color:#6e6249;margin:8px 0 20px}.mail-panel,.reward-panel{right:2%;top:3%;bottom:3%;width:54%;padding:18px 21px;overflow:auto;overscroll-behavior:contain;scrollbar-color:#b7a479 #fff9e9}.mail-heading{display:flex;align-items:center;gap:12px;border-bottom:1px solid #d9cdb0;padding-bottom:10px}.mail-heading>span{font-size:30px;color:#957332}.mail-heading small{display:block;color:#75684f;font-size:13px}.mail-heading strong{font-size:16px;display:block}.email h2{font-size:24px;margin:15px 0 10px}.email-message{font-size:17px;line-height:1.5;white-space:normal;margin:12px 0}.pretend{font-size:12px;color:#7d7159;margin:10px 0}.clue-note{font-size:15px;line-height:1.4;background:#f0ecd7;border-left:3px solid #b3975e;padding:10px 13px}.addresses{display:grid;gap:6px;background:#f0ecd7;padding:10px;font-size:14px;overflow-wrap:anywhere}.addresses b{font-family:monospace;display:block;font-size:16px}.fake-action{background:#a44d3c;color:#fff7e7;padding:10px;text-align:center;border-radius:8px;font-weight:bold;font-size:14px}.fake-link{font-size:14px;color:#315b7a;text-decoration:underline;overflow-wrap:anywhere}fieldset{padding:0;border:0;min-width:0;margin-top:16px}legend{font:22px/1.2 Georgia,serif;text-align:center;width:100%;margin-bottom:13px}.answers{display:flex;gap:13px}.answer{flex:1;border:2px solid;border-radius:17px;min-height:49px;padding:10px;font-weight:bold;font-size:17px;box-shadow:0 3px 0 #c8baa0}.answer.scam{background:#f7dfd5;border-color:#b47b62;color:#733b2d}.answer.safe{background:#dee9d1;border-color:#839c74;color:#304e35}.retry:empty{display:none}.retry{font-size:15px;line-height:1.4;border:1px solid #d6b76f;background:#fff0c9;border-radius:12px;padding:11px;margin:14px 0 0}.reward-title{display:flex;align-items:center;gap:12px}.reward-title>span{font-size:54px;color:#c89931}.reward-title h2{margin:5px 0;font-size:26px}.reward-title .eyebrow{margin:0}.verdict{font-weight:bold;color:#405f45;background:#e9eedc;border-radius:10px;padding:10px 12px;font-size:16px}.reply{font-size:16px;line-height:1.4}.safety-tip{background:#f2ead4;border:1px solid #d9c6a0;border-radius:14px;padding:14px 17px;margin:18px 0;font-size:16px}.safety-tip h3{margin:0 0 9px}.safety-tip p{margin:8px 0}.safety-tip ul{padding-left:20px}.play-footer{min-height:42px;display:flex;align-items:center;justify-content:space-between;gap:15px;padding:8px 17px;flex-shrink:0;color:#746a50;font-size:14px}.room-dots{display:flex;gap:6px}.room-dots i{display:block;width:10px;height:10px;border-radius:50%;background:#dcd3bb}.room-dots .visited{background:#71875b}.finish{max-width:940px;margin:auto;text-align:center}.finish>img{width:100%;height:280px;object-fit:cover;object-position:center 47%}.finish-copy{padding:25px}.finish .stars{margin:15px 0}.finish .stars li{font-size:32px}.badge{width:150px;height:150px;border-radius:50%;border:7px double #a8782f;background:radial-gradient(circle,#fff3bc,#e9be5b);display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 4px 0 #b89144;margin:20px auto;color:#60461f}.badge>span{font-size:36px;line-height:1}.badge strong{font:700 19px Georgia,serif;margin:8px 0}.badge small{font-size:14px}.finish .secondary{font-size:16px;margin:10px}.finish-copy>p{max-width:650px;margin:14px auto}@media(prefers-reduced-motion:no-preference){.actor{animation:breathe 3.5s ease-in-out infinite}.actor.poppy{animation-delay:-1.7s}.actor.speaking,.guest.speaking{animation:speak .8s ease-in-out infinite}.notification{animation:arrive .5s ease-out}.notification .envelope{animation:wiggle 1.2s ease-in-out 2}.mail-panel{animation:mail-in .35s ease-out}.reward-title>span{animation:pop .4s ease-out}@keyframes breathe{50%{transform:translateY(-2px) rotate(.4deg)}}@keyframes speak{50%{transform:rotate(-1.7deg) translateY(-2px)}}@keyframes arrive{from{opacity:0;transform:translate(30px,-50%)}to{opacity:1;transform:translate(0,-50%)}}@keyframes wiggle{30%{transform:rotate(-8deg)}60%{transform:rotate(8deg)}}@keyframes mail-in{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}@keyframes pop{from{transform:scale(.5)}to{transform:scale(1)}}}@media(max-width:700px){.topbar{padding:10px 13px;height:66px}.brand{font-size:21px}nav{gap:4px}nav a,nav button{padding:7px 10px;font-size:13px}main{padding:5px 16px 20px}.welcome-heading{flex-direction:column;text-align:center;gap:10px}.safety-rules{grid-template-columns:1fr}.welcome-heading img{width:140px;height:100px}.mission-copy{padding:20px}.study{height:250px}.ready{padding:12px}.ready .friends{width:230px}.ready h1{font-size:33px}.ready h2{font-size:25px}.finish>img{height:240px}.finish-copy{padding:22px 18px}}@media(orientation:landscape) and (max-height:600px){.playing .topbar{height:43px;padding:3px 14px}.playing .brand{font-size:20px}.playing .brand span{font-size:10px;margin:0}.playing nav button,.playing nav a{min-height:36px;padding:5px 12px;font-size:13px}.playing main{padding:0 7px 5px}.play-shell{height:calc(100dvh - 48px);min-height:0;border-radius:14px}.hud{padding:4px 12px;min-height:49px;gap:8px}.hud h1{font-size:19px;margin:0}.hud .eyebrow{font-size:10px;letter-spacing:.08em}.hud-title{font-size:15px;max-width:165px}.score{font-size:11px}.stars li{font-size:17px}.stars{gap:3px}.play-footer{min-height:30px;font-size:12px;padding:5px 12px}.conversation{padding:14px 18px;bottom:10%;right:4%;width:49%}.conversation p{font-size:18px;line-height:1.35;margin:5px 0 10px}.speaker{font-size:15px}.conversation .primary{font-size:14px;min-height:40px;padding:9px 20px}.actors{width:39%;height:88%;left:1%;bottom:0}.actor{max-width:50%}.notification{padding:15px;width:47%;right:4%}.notification h2{font-size:22px;margin:5px 0}.notification p{font-size:15px;margin:5px 0 12px}.notification .primary{font-size:14px;padding:10px 20px;min-height:42px}.envelope{font-size:38px}.mail-panel,.reward-panel{width:59%;right:1%;top:2%;bottom:2%;padding:13px 17px;border-radius:16px}.email h2{font-size:22px;margin:10px 0}.email-message{font-size:16px;line-height:1.4}.mail-heading{padding-bottom:7px}.mail-heading strong{font-size:15px}.reward-title h2{font-size:23px}.reward-title>span{font-size:40px}.reward-title .eyebrow{font-size:11px}.reward-panel .primary{font-size:15px;padding:12px 20px}.room-3 .actors{width:32%;height:75%}.guest{left:27%;max-width:13%;height:60%}.room-1 .conversation{bottom:3%;right:3%;width:49%}}@media(min-width:1000px) and (min-height:850px){.actors{height:65%;width:43%}.actor{max-height:510px}.conversation p{font-size:26px}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/* Keep each half of the character sheet at its original proportions. */
+.actors{height:min(72%,28vw)}.actor{height:100%;width:auto;flex:0 0 auto;max-width:none;aspect-ratio:3/4}.room-3 .actors{height:min(64%,23vw)}
+@media(orientation:landscape) and (max-height:600px){.actors{height:min(88%,24vw)}.actor{max-width:none}.room-3 .actors{height:min(75%,20vw)}}
+
+/* Sunny watercolour presentation: soft colour washes with readable ink. */
+:root{--cream:#fff8e7;--paper:#fffdf3;--ink:#494533;--green:#486747;--line:#ded0a7;--gold:#c49b4e}
+html,body{background:#fff8e7;color:var(--ink)}
+body{background-image:radial-gradient(ellipse at 12% 12%,#fff0b766,transparent 52%),radial-gradient(ellipse at 90% 68%,#e6efd54d,transparent 48%)}
+.topbar,.hud,.play-footer{background:#fffbed}
+.paper,.play-shell{background:#fffdf3;border-color:#ded0a7;box-shadow:0 4px 0 #eee5ce}
+.safety-rules li{background:linear-gradient(125deg,#fffef8,#fff8e7);border-color:#dfd3b4;box-shadow:0 3px 0 #eee6d3}
+.primary{background:#496b4b;border-color:#cca557;box-shadow:inset 0 0 0 3px #fffbee}
+.primary:hover{background:#3b593e}
+.backdrop{filter:saturate(.92)}
+.study,.welcome-heading img,.finish>img{filter:none}
+.actor,.friend,.guest{filter:none}
+.world{background:#f8efd4}
+.conversation,.notification,.mail-panel,.reward-panel{background:#fffdf2f7;border-color:#d9c79b;box-shadow:0 6px 20px #7b6b4420}
+.mail-heading{border-color:#e4d8b9}.clue-note,.addresses{background:#f1f3df;border-color:#c1b27e}.safety-tip{background:#f8f1db;border-color:#e0d0a6}
+.answer.scam{background:#fae5dc;border-color:#b6806d;color:#733b2d}.answer.safe{background:#e5efd9;border-color:#8aa478;color:#304e35}
+.verdict{background:#eef3e2}.retry{background:#fff4d5;border-color:#dfc386}
+
+.sofa-friends{display:block;position:static;width:340px;max-width:90%;height:auto;max-height:none;margin:10px auto 15px;object-fit:contain;filter:none}
+.sofa-scene{position:absolute;left:2%;bottom:0;width:43%;max-height:76%;object-fit:contain;object-position:center bottom;transform-origin:50% 85%;filter:none}
+@media(max-width:700px){.sofa-friends{width:260px}.sofa-scene{width:43%;max-height:76%}}
+@media(orientation:landscape) and (max-height:600px){.sofa-scene{width:39%;max-height:88%}}
+
+/* Match the hub’s cream paper and restrained storybook colours. */
+html,body{background-color:#f9f3e5}body{background-image:none}.topbar,.hud,.play-footer{background:#faf4e7}.paper,.play-shell,.safety-rules li{background:#fffcf4}.conversation,.notification,.mail-panel,.reward-panel{background:#fff9eef7}
+@media(prefers-reduced-motion:no-preference){.sofa-scene.speaking{animation:breathe 3.5s ease-in-out infinite}}
+@media(orientation:portrait){.playing .hud-title{display:none}.playing .play-shell{height:auto;min-height:700px}.playing .world{flex:none;min-height:580px}.playing .conversation,.playing .notification{width:57%;right:2%}.playing .mail-panel,.playing .reward-panel{width:59%}}
+
+.opening-dialogue{text-align:left;max-width:680px;margin:auto}.scene-context{font:15px/1.45 'Trebuchet MS',Arial,sans-serif!important;border-bottom:1px solid var(--line);padding-bottom:12px}.conversation{max-height:94%;overflow:auto}.case-dialogue{border-top:1px solid var(--line);margin-top:14px;padding-top:6px;font-size:16px}.golden-rule{background:#f8f1db;border:1px solid var(--line);border-radius:18px;padding:18px;margin:24px auto;max-width:680px}.golden-rule h2{margin:0 0 12px}.golden-rule h3{color:var(--green)}.hud h1{font-size:clamp(17px,2vw,24px)}
+
+.world>.notification{max-height:94%;overflow:auto;overscroll-behavior:contain}.play-shell{height:calc(100vh - 80px);height:calc(100dvh - 80px)}@media(orientation:landscape) and (max-height:600px){.play-shell{height:calc(100vh - 48px);height:calc(100dvh - 48px)}}
+
+/* Keep bodies, feet, sofa and guest anchored. Animate only local details. */
+.actor,.actor.speaking,.actor.poppy,.guest.speaking,.sofa-scene.speaking{animation:none!important;transform:none!important}
+.actor[data-motion]{background:none}
+.character-detail{display:block;width:100%;height:100%;overflow:hidden}
+div.sofa-scene{aspect-ratio:3/2}
+
+.scene-loading{max-width:760px;margin:40px auto;padding:45px 25px;text-align:center}
+
+/* WQ: Bruno-style Scam or Safe introduction (2026-11) */
+/* Intro only: preserve gameplay, other screens, and shared navigation. */
+.mission.paper {
+    width: 100%;
+    max-width: 1180px;
+    min-height: calc(100svh - 120px);
+    margin: 0 auto;
+    padding: clamp(22px, 4vw, 52px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(22px, 4vw, 55px);
+    text-align: left;
+    background: #f6edda;
+    border-radius: 26px;
+}
+.mission > img.study {
+    flex: 0 0 43%;
+    width: 43%;
+    max-width: 460px;
+    height: auto;
+    max-height: 450px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+.mission > .mission-copy {
+    flex: 1;
+    min-width: 0;
+    padding: 0;
+    text-align: left;
+}
+.mission-copy > .eyebrow {
+    font-size: 11px;
+    letter-spacing: .18em;
+    color: #405f45;
+    margin: 0 0 10px;
+}
+.mission-copy h1 {
+    font-size: clamp(34px, 4.5vw, 54px);
+    line-height: 1.08;
+    margin: 8px 0 20px;
+}
+.mission-copy .opening-dialogue {
+    max-width: 500px;
+    margin: 0 0 20px;
+    text-align: left;
+}
+.mission-copy .opening-dialogue p {
+    max-width: 460px;
+    font-size: 19px;
+    line-height: 1.5;
+    margin: 0 0 20px;
+}
+.mission-copy #start.primary {
+    background: #405f45;
+    border: 0;
+    border-radius: 27px;
+    box-shadow: none;
+    padding: 13px 25px;
+    min-height: 48px;
+    font-size: 17px;
+}
+.mission-copy #start.primary:hover { background: #304a34; }
+.mission-copy > .small {
+    font-size: 13px;
+    margin: 12px 0 0;
+    color: #75684f;
+}
+@media (max-width: 760px) {
+    .mission.paper {
+        min-height: auto;
+        padding: 24px 20px 30px;
+        flex-direction: column;
+        gap: 14px;
+        text-align: center;
+    }
+    .mission > img.study {
+        flex: none;
+        width: 100%;
+        max-width: 420px;
+        max-height: 275px;
+    }
+    .mission > .mission-copy {
+        width: 100%;
+        text-align: center;
+    }
+    .mission-copy h1 { font-size: clamp(30px, 7vw, 40px); }
+    .mission-copy .opening-dialogue { margin: 0 auto 18px; text-align: center; }
+    .mission-copy .opening-dialogue p {
+        font-size: 17px;
+        margin: 0 auto 18px;
+    }
+    .mission-copy > .small { margin: 12px auto 0; }
+}
+/* --- Scam or Safe mission card refined to align with Bruno style --- */
+
+body {
+  background: #eef3e7;
+}
+
+/* Main intro / mission card */
+.mission.paper {
+  max-width: 900px;
+  margin: 2.5rem auto 3rem;
+  background: #f8f5ea;
+  border: 2px solid #c8d6bf;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: none;
+  padding: 0;
+  display: block;
+}
+
+/* Top illustration */
+.mission.paper .study,
+.mission img.study {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+/* Inner text area */
+.mission-copy {
+  padding: 2rem 2.5rem 2.2rem;
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.mission-copy .eyebrow {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.18em;
+  text-transform: none;
+  color: #8b6b2f;
+  font-weight: 600;
+}
+
+.mission-copy h1 {
+  margin: 0 0 1rem;
+  font-size: 3rem;
+  line-height: 1.12;
+  color: #244a3d;
+  font-weight: 500;
+}
+
+.mission-copy > p,
+.mission-copy .opening-dialogue,
+.mission-copy .opening-dialogue p {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #2f4a3f;
+}
+
+/* Keep only the cleaner description feel */
+.mission-copy .opening-dialogue {
+  max-width: 680px;
+  margin: 0.25rem auto 1.4rem;
+}
+
+.mission-copy .opening-dialogue p {
+  margin: 0 0 0.85rem;
+}
+
+/* Start button aligned with Bruno look */
+.mission-copy .primary,
+.mission .primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 250px;
+  padding: 1rem 1.8rem;
+  border-radius: 999px;
+  border: 2px solid #6f8f6f;
+  background: #5f8763;
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: inset 0 -2px 0 rgba(0,0,0,0.08);
+}
+
+.mission-copy .primary:hover,
+.mission .primary:hover {
+  filter: brightness(0.98);
+}
+
+.mission-copy .small {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #7b6b48;
+}
+
+/* Optional: make the guidelines page feel closer too */
+.guidelines {
+  max-width: 1000px;
+  margin: 2.5rem auto 3rem;
+  background: #f8f5ea;
+  border: 2px solid #c8d6bf;
+  border-radius: 28px;
+  padding: 2rem 2rem 2.2rem;
+}
+
+.guidelines .welcome-bottom .primary {
+  border-radius: 999px;
+  border: 2px solid #6f8f6f;
+  background: #5f8763;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .mission.paper {
+    margin: 1.25rem 1rem 2rem;
+    border-radius: 22px;
+  }
+
+  .mission-copy {
+    padding: 1.5rem 1.25rem 1.75rem;
+  }
+
+  .mission-copy h1 {
+    font-size: 2.2rem;
+  }
+
+  .mission-copy .primary,
+  .mission .primary {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .guidelines {
+    margin: 1.25rem 1rem 2rem;
+    padding: 1.25rem;
+    border-radius: 22px;
+  }
+}
+/* --- Bruno-style Scam or Safe mission screen --- */
+
+.mission-bruno-like {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.mission-bruno-like .welcome-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  color: #4b6654;
+  font-size: 0.95rem;
+}
+
+.mission-bruno-like .all-games-link {
+  color: #385d47;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.mission-bruno-like .all-games-link:hover {
+  text-decoration: underline;
+}
+
+.mission-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #f8f5ea;
+  border: 2px solid #c7d6be;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: none;
+}
+
+.mission-hero {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mission-copy {
+  padding: 1.8rem 2rem 2rem;
+  text-align: center;
+}
+
+.mission-copy h1 {
+  margin: 0 0 1rem;
+  font-size: 3rem;
+  line-height: 1.15;
+  font-weight: 500;
+  color: #244a3d;
+}
+
+.mission-description {
+  max-width: 680px;
+  margin: 0 auto 1.5rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #2f4a3f;
+}
+
+.mission-copy .primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 250px;
+  padding: 1rem 1.8rem;
+  border-radius: 999px;
+  border: 2px solid #6d8d70;
+  background: #5f8763;
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: inset 0 -2px 0 rgba(0,0,0,0.12);
+}
+
+.mission-copy .primary:hover {
+  filter: brightness(0.98);
+}
+
+.mission-help {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #6f6e60;
+}
+
+/* Hide the older intro styling if still present */
+.mission.paper,
+.mission .study,
+.mission .opening-dialogue,
+.mission .small,
+.mission .eyebrow {
+  all: unset;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .mission-bruno-like {
+    padding: 1.25rem 1rem 2rem;
+  }
+
+  .mission-bruno-like .welcome-nav {
+    gap: 0.75rem;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .mission-card {
+    border-radius: 22px;
+  }
+
+  .mission-copy {
+    padding: 1.4rem 1.1rem 1.6rem;
+  }
+
+  .mission-copy h1 {
+    font-size: 2.2rem;
+  }
+
+  .mission-description {
+    font-size: 0.98rem;
+  }
+
+  .mission-copy .primary {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+/* Match Bruno's Birthday Adventure introduction card */
+
+.mission-bruno-like {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 16px 35px;
+}
+
+/* Narrower, centred card */
+.mission-bruno-like .mission-card {
+  width: 100%;
+  max-width: 810px;
+  margin: 0 auto;
+  background: #f9f7ee;
+  border: 1.5px solid #c8d7bf;
+  border-radius: 27px;
+  overflow: hidden;
+  box-shadow: none;
+}
+
+/* Horizontal banner, instead of the full-height image */
+.mission-bruno-like .mission-hero {
+  display: block;
+  width: 100%;
+  height: 235px;
+  max-height: none;
+  object-fit: cover;
+  object-position: center 48%;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+}
+
+/* Match Bruno's centred description area */
+.mission-bruno-like .mission-copy {
+  width: 100%;
+  max-width: none;
+  padding: 26px 36px 28px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Matching storybook heading */
+.mission-bruno-like .mission-copy h1 {
+  font: normal clamp(30px, 3.5vw, 42px)/1.15 Georgia, serif;
+  color: #294f47;
+  margin: 0 auto 18px;
+}
+
+/* Matching description size and line spacing */
+.mission-bruno-like .mission-description {
+  max-width: 620px;
+  margin: 0 auto 25px;
+  font-size: 19px;
+  line-height: 1.5;
+  color: #294f47;
+  text-align: center;
+}
+
+/* Match Bruno's green start button */
+.mission-bruno-like .primary {
+  min-width: 225px;
+  min-height: 55px;
+  padding: 12px 28px;
+  background: #476d50;
+  border: 2px solid #91a98b;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  box-shadow: 0 3px 0 #314d39;
+}
+
+/* Supporting instructions */
+.mission-bruno-like .mission-help {
+  margin: 20px auto 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #75684f;
+  text-align: center;
+}
+
+/* Mobile adjustments */
+@media (max-width: 700px) {
+  .mission-bruno-like {
+    padding: 15px 10px 25px;
+  }
+
+  .mission-bruno-like .mission-hero {
+    height: 190px;
+  }
+
+  .mission-bruno-like .mission-copy {
+    padding: 22px 18px 25px;
+  }
+
+  .mission-bruno-like .mission-description {
+    font-size: 17px;
+  }
+}
+/* Hide the game header on the two introduction screens only */
+
+body:has(#stage > .guidelines) .topbar,
+body:has(#stage > .mission-bruno-like) .topbar {
+    display: none !important;
+}
+
+/* Style the All games link like Bruno's */
+
+.guidelines .all-games-link,
+.mission-bruno-like .all-games-link {
+    color: #385d47;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.guidelines .all-games-link:hover,
+.mission-bruno-like .all-games-link:hover {
+    text-decoration: underline;
+}

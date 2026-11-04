@@ -1,0 +1,67 @@
+/* Shared interior theme. Loaded only by Bruno and Cyber Detectives. */
+:root{--paper:#fbf7ec;--sage:#dfe8d8;--blush:#f2e0d9;--blue:#e1edf0;--ink:#354e43;--line:#cdd5bd;--green:#466a51;--cream:#fbf7ec;--gold:#aa824b;--wash:radial-gradient(ellipse at 3% 8%,#dce8d8b3,transparent 45%),radial-gradient(ellipse at 95% 26%,#e4edf0b3,transparent 43%),radial-gradient(ellipse at 70% 100%,#f1dfd5a6,transparent 48%);--art: saturate(.73) contrast(.92) brightness(1.08);--sprite-art:saturate(.85) contrast(.96) brightness(1.03)}
+html,body{background:var(--paper);color:var(--ink)}
+body{background-image:var(--wash);background-attachment:fixed}
+button:focus-visible,a:focus-visible,[tabindex]:focus-visible{outline:3px solid #426e7a;outline-offset:4px}
+/* Paper washes on instructions, orientation and help screens. */
+.safety-welcome,.rotate-screen,#rotate,.loading-screen{background-color:var(--paper);background-image:var(--wash);color:var(--ink)}
+.welcome-heading h1,.welcome-mission h1,.rotate-screen h1,#rotate h1,.modal h2{color:var(--ink)}
+.welcome-kicker,.welcome-nav,.small,.modal small{color:#637262}
+.safety-rules li,.welcome-mission{background-color:#fffcf4;background-image:radial-gradient(ellipse at top left,#e5eddc99,transparent 75%);border-color:var(--line);box-shadow:0 5px 15px #6377610d,inset 0 0 25px #eddfc429}
+.safety-rules li:nth-child(3n+2){background-image:radial-gradient(ellipse at top left,#e2edf099,transparent 75%)}
+.safety-rules li:nth-child(3n){background-image:radial-gradient(ellipse at top left,#f3e3de99,transparent 75%)}
+.safety-rules strong{color:#395a46}.welcome-portrait{border-color:var(--line)}
+.welcome-portrait,.welcome-mission>img{filter:var(--art)}
+.welcome-trio img,.rotate-team img,.rotate-friends{filter:var(--sprite-art)}
+.welcome-button,.primary{background:#466a51;border-color:#aabc9b;color:#fffdf4;box-shadow:0 3px 0 #354f3e,inset 0 0 18px #c6d5a71a}
+.welcome-button:hover,.primary:hover{background:#385b44}
+/* Bruno: soft forest scenery, painted characters and paper panels. */
+.bruno-watercolour .card-screen,.bruno-watercolour .play-screen,.bruno-watercolour .finale-screen{background-color:var(--paper);border-color:var(--line);box-shadow:0 8px 28px #53694d0d}
+.bruno-watercolour .card-screen{background-image:var(--wash)}
+.bruno-watercolour .card-screen:before{filter:var(--art);opacity:.16}
+.bruno-watercolour .landscape{background:#f5f3e6}
+.bruno-watercolour .landscape img{filter:var(--art)}
+.bruno-watercolour .front-sprite,.bruno-watercolour .walker,.bruno-watercolour .box-art,.bruno-watercolour .chest-sprite,.bruno-watercolour .stem-sprite{filter:var(--sprite-art)}
+.bruno-watercolour .finale-picture img{filter:var(--art)}
+.bruno-watercolour .hud,.bruno-watercolour .play-bottom{background-color:var(--paper);background-image:var(--wash)}
+.bruno-watercolour .scene-name,.bruno-watercolour .pickup,.bruno-watercolour .notice,.bruno-watercolour .speech-bubble,.bruno-watercolour .chest-object>span{background:#fffcf2f5;border-color:#b8c9ac;box-shadow:0 3px 12px #506a4914;color:var(--ink)}
+.bruno-watercolour .controls button{background:#e1ebed;color:#355664;box-shadow:0 4px 0 #b5c7c9;border-color:#b7cacc}
+.bruno-watercolour .controls .collect{background:#55775a;color:#fffdf4;box-shadow:0 4px 0 #36523e;border-color:#adbf9c}
+.bruno-watercolour .controls .ready{background:#6c8152;box-shadow:0 4px 0 #465936}
+.bruno-watercolour .controls button:active,.bruno-watercolour .controls .held{box-shadow:0 1px 0 #9bad9d}
+.bruno-watercolour dialog{background-color:var(--paper);background-image:var(--wash);border-color:var(--line);box-shadow:0 12px 50px #344b3926}
+.bruno-watercolour dialog::backdrop{background:#435c4f66}
+.bruno-watercolour .message{background:#e5edf0;color:#355360;border:1px solid #c8dade}
+.bruno-watercolour .choice{background:#fffcf5;border-color:#c4d1b8}
+.bruno-watercolour .choice:hover{background:#e9f0e1}
+.bruno-watercolour .hint{background:#e5eddb;color:#3f5841}
+.bruno-watercolour .gift-list li{background:#f6f8eb;border-color:#cbd6bc}
+.bruno-watercolour .finale-copy{background-image:var(--wash)}
+/* Detectives: remove dark/amber framing and neon controls. */
+.detectives-watercolour #viewport,.detectives-watercolour #game{background:var(--paper)}
+.detectives-watercolour #background,.detectives-watercolour .kitchen-celebration{filter:var(--art)}
+.detectives-watercolour .vignette{background:linear-gradient(#fbf7ec20,transparent 25%,transparent 75%,#e9eedb33);box-shadow:inset 0 0 90px #fbf7ec33}
+.detectives-watercolour .brand,.detectives-watercolour .level-label,.detectives-watercolour .tools button,.detectives-watercolour .puzzle,.detectives-watercolour #medals,.detectives-watercolour .status,.detectives-watercolour #playerName,.detectives-watercolour .final-heading,.detectives-watercolour .final-footer{background-color:#fffcf3f5;background-image:radial-gradient(ellipse at top left,#e1e9d975,transparent 80%);border-color:#bccdab;color:var(--ink);box-shadow:0 4px 14px #49613f18}
+.detectives-watercolour .pattern-tile{background:#e7eef0;border-color:#c3d5da;color:#476977}
+.detectives-watercolour .pattern-tile.unknown{background:#f5f5e8;border-color:#99ae87}
+.detectives-watercolour .choice{background:#fffdf5;border-color:#77966e;box-shadow:0 0 0 4px #fffdf1,0 5px 0 #8d9e7e66,0 9px 16px #41563a20}
+.detectives-watercolour .choice span{background:#e5eedc;color:#304b37}
+.detectives-watercolour .choice.near{border-color:#426d46;box-shadow:0 0 0 5px #fffdf1,0 0 0 10px #b4c99c,0 8px 18px #41563a26}
+.detectives-watercolour .choice.correct{background:#e0edd4}.detectives-watercolour .choice.wrong{border-color:#b47765}
+.detectives-watercolour #sprite,.detectives-watercolour #walkSprite,.detectives-watercolour .hero-team img,.detectives-watercolour .uncle,.detectives-watercolour .modal>img:not(.kitchen-celebration){filter:var(--sprite-art)}
+.detectives-watercolour .dpad{background:#dce7da;border-color:#a1b699;box-shadow:0 5px 0 #8ca183,0 8px 16px #43543b1a}
+.detectives-watercolour .dpad button{background:linear-gradient(#6c8a71,#4d7057);border-color:#c2d1b6;box-shadow:0 3px 0 #385540;color:#fffdf4}
+.detectives-watercolour .dpad button:active,.detectives-watercolour .dpad button.pressed{background:#3d6048;box-shadow:none}
+.detectives-watercolour .dpad-center{color:#5b765e}
+.detectives-watercolour .action-wrap button{background:radial-gradient(circle at 35% 25%,#d3e3bd,#9cba81);border-color:#f4f6e6;box-shadow:0 5px 0 #648253,0 8px 16px #43543b26;color:#304c35}
+.detectives-watercolour .action-wrap button.ready{box-shadow:0 5px 0 #648253,0 0 0 5px #e5efd4,0 0 20px #bacfa166}
+.detectives-watercolour .action-wrap button img{filter:saturate(.8)}
+.detectives-watercolour .dpad>span,.detectives-watercolour .action-wrap>span{color:#354d3b;background:#fffaf0ed;border:1px solid #bccdab;border-radius:12px;padding:3px 12px;text-shadow:none}
+.detectives-watercolour .overlay{background:#52665555;backdrop-filter:blur(3px)}
+.detectives-watercolour .modal:not(.final-modal){background-color:var(--paper);background-image:var(--wash);border:3px solid #bdcdae;box-shadow:0 14px 50px #344b3926}
+.detectives-watercolour #start{background:#466a51;border-color:#9fb78d;box-shadow:inset 0 0 0 4px #fbf7ec}
+.detectives-watercolour #start:active{background:#385b44}
+.detectives-watercolour .overlay.celebrating{background:transparent;backdrop-filter:none}
+.detectives-watercolour .modal.final-modal{background:var(--paper)}
+.detectives-watercolour .badge{background:#f2eed6;border-color:#b5a570}
+@media(prefers-reduced-motion:reduce){.watercolour-games *{scroll-behavior:auto}}

@@ -1,0 +1,37 @@
+{
+  "prompt": "Replace only Get Set Go with Wonder Quest; preserve surrounding words and artwork. Built-in imagegen text-localization.",
+  "outputs": {
+    "watercolour": [
+      "fc67322d-eae0-4e41-ab41-b7e5838d60d1",
+      "349eaf07-f9e4-44b5-87bc-8a23fa80c890"
+    ],
+    "little-ai-helper": [
+      "a431d571-d910-4512-a829-cff9fb7386e2",
+      "c1fb1d21-c299-4cac-a806-848fd7394f73"
+    ],
+    "secret-code": [
+      "cee4be9d-a996-4b16-b38c-5aae66ab9712",
+      "6fcd7ef4-4457-4821-869c-1d28979e6776"
+    ],
+    "tricky-message": [
+      "4e4d6977-990f-408a-b3bf-89fe4a05c2c5",
+      "eb997d5b-d7ab-4745-879c-536c76839395"
+    ],
+    "pattern-puzzle": [
+      "ee6772a5-c4a6-4c28-a676-c38f37d9e2f4",
+      "040ae6a4-fde7-41b5-af5c-c96312224e07"
+    ],
+    "mystery-wifi": [
+      "66e1f687-7d02-43bd-a5a0-9b006bdb81e5",
+      "ba1ac25a-2995-486d-93d7-33ef1589dbf3"
+    ],
+    "mystery-download": [
+      "8a652678-21ec-4177-b007-ef1eb959feaf",
+      "d4ee7663-0ec9-493e-88d8-33a946502eb8"
+    ],
+    "important-update": [
+      "6d58580f-7683-4d71-87e9-29580074ee20",
+      "4e5882ac-2964-4e15-8188-a469e56756b9"
+    ]
+  }
+}

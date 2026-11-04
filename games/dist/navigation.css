@@ -1,0 +1,8 @@
+/* Shared, separate navigation buttons and brand colours. */
+header nav[aria-label="Main navigation"]{display:flex;flex-direction:row;flex-shrink:0;flex-wrap:nowrap;align-items:stretch;justify-content:center;gap:10px;padding:0;margin:0;border:0;border-radius:0;background:transparent;box-shadow:none;font-family:Georgia,"Times New Roman",serif;font-weight:400;line-height:1.5;letter-spacing:normal}
+header nav[aria-label="Main navigation"] a{display:block;padding:9px 24px;border:1px solid #c2cbb7;border-radius:24px;background:#faf6ed;color:#493319;font-size:17px;font-weight:400;line-height:1.5;letter-spacing:normal;text-decoration:none;white-space:nowrap;text-align:center;box-shadow:0 2px 5px #6d491914}
+header nav[aria-label="Main navigation"] a[aria-current="page"]{background:#527059;border-color:#527059;color:#fffaf0}
+header nav[aria-label="Main navigation"] a:focus-visible{outline:3px solid #765016;outline-offset:4px}
+header .brand-name,header .brand-word{color:#283b1c}
+header .brand-name em,header .brand-word em{font-style:normal;color:#283b1c}
+@media(max-width:650px){header nav[aria-label="Main navigation"]{gap:6px}header nav[aria-label="Main navigation"] a{padding:7px 12px;font-size:13px}}

@@ -1,0 +1,46 @@
+The Little AI Helper
+Voice: Colleen — US English
+One MP3 per page. Read at a gentle storytelling pace.
+Do not read repeated speech-bubble text twice.
+
+PAGE 01 — page01.mp3
+The Little AI Helper. [sPause time="0.35s" ePause] A story about using AI the right way. [sPause time="0.3s" ePause] Part of Get Set Go Series.
+
+PAGE 02 — page02.mp3
+It was a sunny day. [sPause time="0.3s" ePause] Peep and Poppy were attending their school.
+
+PAGE 03 — page03.mp3
+We're having a project competition! [sPause time="0.35s" ePause] Make something wonderful using paper and bring it to school tomorrow. [sPause time="0.3s" ePause] Wow! [sPause time="0.3s" ePause] I can't wait! [sPause time="0.3s" ePause] Be creative! Have fun!
+
+PAGE 04 — page04.mp3
+That afternoon, Peep and Poppy sat at the kitchen table. [sPause time="0.3s" ePause] Paper, crayons and coloured pencils were everywhere. [sPause time="0.35s" ePause] I know! I'll make an aeroplane! [sPause time="0.3s" ePause] And I'll make a paper cat!
+
+PAGE 05 — page05.mp3
+Peep folded his paper one way, then another. [sPause time="0.3s" ePause] It didn't look like an aeroplane at all. [sPause time="0.3s" ePause] Poppy tried making two little ears. Her paper cat kept falling over. [sPause time="0.35s" ePause] Oh dear, said Peep. [sPause time="0.3s" ePause] We know what to make... [sPause time="0.35s" ePause] but not how to make it!
+
+PAGE 06 — page06.mp3
+Mama Clover came into the kitchen. [sPause time="0.3s" ePause] Why don't you ask an AI helper to show you how? [sPause time="0.35s" ePause] An AI helper? asked Poppy. [sPause time="0.3s" ePause] Mama Clover brought over her tablet. [sPause time="0.3s" ePause] It can explain things and help you learn how to do them. [sPause time="0.35s" ePause] Hello! I can help you learn and make amazing things!
+
+PAGE 07 — page07.mp3
+With Mama Clover beside them, Peep asked: [sPause time="0.3s" ePause] How can I make a paper aeroplane? [sPause time="0.35s" ePause] Poppy asked: [sPause time="0.3s" ePause] How can I make a paper cat? [sPause time="0.35s" ePause] Step-by-step instructions appeared on the tablet. [sPause time="0.3s" ePause] Look! said Peep. [sPause time="0.3s" ePause] It can teach us!
+
+PAGE 08 — page08.mp3
+Peep carefully followed the instructions. [sPause time="0.35s" ePause] Fold the paper in half. [sPause time="0.35s" ePause] Now fold the corners. [sPause time="0.35s" ePause] Next, make the wings. [sPause time="0.35s" ePause] Fold... [sPause time="0.3s" ePause] Press... [sPause time="0.3s" ePause] Turn... [sPause time="0.35s" ePause] There! cried Peep. [sPause time="0.3s" ePause] He held up his very own paper aeroplane.
+
+PAGE 09 — page09.mp3
+Poppy followed her instructions too. [sPause time="0.35s" ePause] Fold... [sPause time="0.3s" ePause] Turn... [sPause time="0.3s" ePause] Fold again... [sPause time="0.35s" ePause] Then she added two ears, bright eyes, whiskers and a little pink nose. [sPause time="0.35s" ePause] My cat is finished! [sPause time="0.3s" ePause] It looks brilliant! said Peep.
+
+PAGE 10 — page10.mp3
+Mama Clover looked at their projects. [sPause time="0.3s" ePause] The AI helper showed you the steps, she said. [sPause time="0.3s" ePause] But who folded the paper? [sPause time="0.35s" ePause] We did! said Peep and Poppy. [sPause time="0.35s" ePause] Who chose the colours and decorations? [sPause time="0.35s" ePause] We did! [sPause time="0.3s" ePause] Mama Clover smiled. [sPause time="0.3s" ePause] Exactly.
+
+PAGE 11 — page11.mp3
+The next morning, everyone brought their projects to school. [sPause time="0.3s" ePause] There were paper boats, flowers, houses and animals. [sPause time="0.3s" ePause] Peep placed his aeroplane on the table. [sPause time="0.3s" ePause] Poppy carefully placed her cat beside it. [sPause time="0.3s" ePause] Professor Ollie looked at all the wonderful creations.
+
+PAGE 12 — page12.mp3
+Professor Ollie smiled. [sPause time="0.3s" ePause] Our winners are... [sPause time="0.5s" ePause] Peep and Poppy! [sPause time="0.35s" ePause] Hooray! [sPause time="0.3s" ePause] Everyone clapped. [sPause time="0.3s" ePause] We had a little help learning how, said Poppy. [sPause time="0.35s" ePause] But we made them ourselves! added Peep proudly.
+
+PAGE 13 — page13.mp3
+Remember kids, [sPause time="0.35s" ePause] AI can show you how. [sPause time="0.3s" ePause] You still think, [sPause time="0.3s" ePause] create and do! [sPause time="0.35s" ePause] And when you're young, use AI with a trusted grown-up.
+
+PAGE 14 — page14.mp3
+Lesson of the story is [sPause time="0.35s" ePause] AI can help us learn. [sPause time="0.3s" ePause] But you still need to think, [sPause time="0.3s" ePause] create and do!

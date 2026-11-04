@@ -1,0 +1,250 @@
+
+/* Wonder Quest Library — account and membership pages */
+
+body.wq-page {
+    margin: 0;
+    min-height: 100vh;
+    background: #f8f3e7;
+    color: #354334;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.wq-page * {
+    box-sizing: border-box;
+}
+
+.wq-page-header {
+    padding: 24px 5%;
+    border-bottom: 1px solid #ded5bd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.wq-brand {
+    color: #234d39;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.wq-page-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.wq-page-nav a {
+    display: inline-block;
+    padding: 11px 20px;
+    border: 1px solid #d6d1bd;
+    border-radius: 30px;
+    background: #fcfaf4;
+    color: #513823;
+    text-decoration: none;
+}
+
+.wq-page-nav a:hover {
+    background: #e8efdf;
+}
+
+.wq-main {
+    width: min(94%, 760px);
+    margin: 55px auto;
+}
+
+.wq-card {
+    background: #fffcf5;
+    padding: 38px;
+    border: 1px solid #e3d8bd;
+    border-radius: 24px;
+    box-shadow: 0 8px 24px rgba(60, 55, 30, 0.06);
+}
+
+.wq-card h1 {
+    margin-top: 0;
+    color: #285943;
+    font-size: 34px;
+}
+
+.wq-card h2 {
+    color: #513823;
+}
+
+.wq-detail {
+    padding: 14px 0;
+    border-bottom: 1px solid #e9e2d3;
+    overflow-wrap: anywhere;
+}
+
+.wq-muted {
+    color: #6d735f;
+}
+
+.wq-button {
+    display: inline-block;
+    padding: 13px 23px;
+    background: #365e49;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    font: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wq-button:hover {
+    background: #284b39;
+}
+
+.wq-button-secondary {
+    background: #f6f0df;
+    border: 1px solid #c7c9af;
+    color: #36513e;
+}
+
+.wq-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.wq-status {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+@media (max-width: 600px) {
+    .wq-page-header {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .wq-main {
+        margin: 25px auto;
+    }
+
+    .wq-card {
+        padding: 24px;
+    }
+}
+
+/* Wonder Quest Library - login and registration forms */
+
+.wq-form {
+    margin-top: 25px;
+}
+
+.wq-form label {
+    display: block;
+    margin: 18px 0 7px;
+    color: #354334;
+    font-weight: 600;
+}
+
+.wq-form input {
+    display: block;
+    width: 100%;
+    padding: 13px 15px;
+    border: 1px solid #cfc7b3;
+    border-radius: 12px;
+    background: #fffefa;
+    color: #263e30;
+    font: inherit;
+}
+
+.wq-form input:focus {
+    outline: 2px solid #719785;
+    outline-offset: 2px;
+}
+
+.wq-form .wq-button {
+    margin-top: 24px;
+    width: 100%;
+}
+
+.wq-form-footer {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.wq-form-footer a {
+    color: #285943;
+}
+
+.wq-notice {
+    padding: 12px 16px;
+    background: #f3ecda;
+    border: 1px solid #ded3b8;
+    border-radius: 12px;
+    margin: 18px 0;
+}
+/* Keep the Sign Out button readable on hover */
+
+.wq-card button[type="submit"],
+.wq-card button[type="submit"]:hover,
+.wq-card button[type="submit"]:focus-visible {
+    color: #ffffff;
+}
+
+.wq-card button[type="submit"]:hover {
+    background-color: #244d3d;
+    opacity: 1;
+}
+
+.wq-card button[type="submit"]:focus-visible {
+    outline: 2px solid #244d3d;
+    outline-offset: 3px;
+}
+/* Sign Out button: consistent normal and hover appearance */
+
+.wq-card form[action="/logout"] button {
+    background-color: #244d3d;
+    color: #ffffff;
+    opacity: 1;
+    border: 1px solid #244d3d;
+}
+
+.wq-card form[action="/logout"] button:hover,
+.wq-card form[action="/logout"] button:focus-visible {
+    background-color: #1b4032;
+    color: #ffffff;
+    opacity: 1;
+}
+.wq-footer {
+    margin-top: 32px;
+    padding: 24px 16px;
+    background: #f3eee3;
+    border-top: 1px solid #ded7c7;
+    text-align: center;
+    color: #56675d;
+}
+
+.wq-footer-inner {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.wq-footer strong {
+    color: #315c4e;
+    font-size: 18px;
+}
+
+.wq-footer p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.wq-footer a {
+    color: #285f52;
+    text-decoration: underline;
+}
+
+.wq-footer small {
+    color: #77776b;
+}
+

@@ -1,0 +1,12 @@
+// Original, gently plucked C-major house-adventure score and short victory fanfare.
+class GameMusic {
+ constructor(){this.enabled=true;this.ctx=null;this.timer=null;this.step=0;this.next=0;this.celebratingUntil=0;}
+ async start(){if(!this.enabled)return;try{this.ctx??=new(window.AudioContext||window.webkitAudioContext)();this.master??=this.ctx.createGain();this.master.gain.value=.38;if(!this.connected){this.master.connect(this.ctx.destination);this.connected=true}await this.ctx.resume();if(!this.timer){this.next=this.ctx.currentTime+.08;this.timer=setInterval(()=>this.schedule(),100);this.schedule()}}catch{}}
+ note(midi,time,duration,volume=.12,type='sine'){if(!this.ctx||!this.enabled)return;const o=this.ctx.createOscillator(),g=this.ctx.createGain();o.type=type;o.frequency.value=440*2**((midi-69)/12);o.connect(g);g.connect(this.master);g.gain.setValueAtTime(.0001,time);g.gain.exponentialRampToValueAtTime(volume,time+.012);g.gain.exponentialRampToValueAtTime(.0001,time+duration);o.start(time);o.stop(time+duration+.02)}
+ schedule(){if(!this.ctx||this.ctx.state!=='running'||!this.enabled)return;const melody=[72,76,79,76,74,72,67,0,69,72,76,72,71,69,67,0,65,69,72,69,67,65,64,0,67,71,74,79,76,74,72,0];const chords=[[48,60,64,67],[45,57,60,64],[41,53,57,60],[43,55,59,62]];while(this.next<this.ctx.currentTime+.3){if(this.next<this.ctx.currentTime)this.next=this.ctx.currentTime+.04;const s=this.step%32,c=chords[Math.floor(s/8)],duck=this.next<this.celebratingUntil?.18:1;if(melody[s])this.note(melody[s],this.next,.42,.11*duck);if(s%2===0)this.note(c[1+(s/2)%3],this.next,.65,.055*duck,'triangle');if(s%8===0)this.note(c[0],this.next,1.4,.09*duck,'triangle');this.step++;this.next+=.32}}
+ victory(final=false){if(!this.enabled||!this.ctx)return;const t=this.ctx.currentTime+.025;this.celebratingUntil=t+(final?3.5:2.2);const notes=final?[72,76,79,84,83,81,79,76,79,84]:[72,76,79,84,79,84];notes.forEach((n,i)=>this.note(n,t+i*.18,.38,.23));[60,64,67,72].forEach(n=>this.note(n,t+notes.length*.18,.9,.12,'triangle'))}
+ wrong(){if(this.ctx)this.note(67,this.ctx.currentTime,.22,.07)}
+ async toggle(){this.enabled=!this.enabled;if(this.enabled)await this.start();else {clearInterval(this.timer);this.timer=null;if(this.ctx)await this.ctx.suspend()}return this.enabled}
+ pause(){if(this.ctx)this.ctx.suspend()}
+ resume(){if(this.enabled&&this.ctx){this.next=this.ctx.currentTime+.08;this.ctx.resume()}}
+}
